@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "627215427542",
+    "project_id": "pfe-b7ddd",
+    "storage_bucket": "pfe-b7ddd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627215427542:android:95ba275a6f1d1037016677",
+        "android_client_info": {
+          "package_name": "com.example.emotiguard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627215427542-uds6c6g3bs7n11fhn6g7d70jkeabf5d2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADFJ6Oic2sAQtwzzPLFW4Hq57N_fljVo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627215427542-uds6c6g3bs7n11fhn6g7d70jkeabf5d2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

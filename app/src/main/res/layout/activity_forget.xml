@@ -52,6 +52,7 @@
             android:padding="10sp"
             android:textSize="17sp" />
         <Button
+            android:id="@+id/res"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"

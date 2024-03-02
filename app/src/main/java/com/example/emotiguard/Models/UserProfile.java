@@ -1,7 +1,7 @@
 package com.example.emotiguard.Models;
 
 public class UserProfile {
-  private String name,pas,email;
+  private String name,email,pas;
 
   public UserProfile() {
   }
@@ -15,17 +15,8 @@ public class UserProfile {
   public String getName() {
     return name;
   }
-
   public void setName(String name) {
     this.name = name;
-  }
-
-  public String getPas() {
-    return pas;
-  }
-
-  public void setPas(String pas) {
-    this.pas = pas;
   }
 
   public String getEmail() {
@@ -34,5 +25,13 @@ public class UserProfile {
 
   public void setEmail(String email) {
     this.email = email;
+  }
+
+  public String getPas() {
+    return pas;
+  }
+
+  public void setPas(String pas) {
+    this.pas = pas;
   }
 }

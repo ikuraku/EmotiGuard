@@ -51,7 +51,7 @@ public class SignUpActivity extends AppCompatActivity {
 
         log.setOnClickListener(v -> {
             startActivity(new Intent(SignUpActivity.this, SignInActivity.class));
-            Toast.makeText(this, "go to Sign in activity ", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "go to SignIn activity ", Toast.LENGTH_SHORT).show();
         });
         register.setOnClickListener(v -> {
             if (validate()){
@@ -97,7 +97,7 @@ public class SignUpActivity extends AppCompatActivity {
     private void sendUserData() {
         FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
         DatabaseReference myRef = firebaseDatabase.getReference("user");
-        UserProfile userProfile = new UserProfile(nameSt,pasSt,emailSt);
+        UserProfile userProfile = new UserProfile(nameSt,emailSt,pasSt);
         myRef.child(""+firebaseAuth.getUid()).setValue(userProfile);
     }
 
